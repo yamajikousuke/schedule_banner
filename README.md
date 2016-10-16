@@ -21,16 +21,22 @@
 フォルダのパスは、最後にスラッシュ（/）を付けて下さい。表示時刻は、json配列で指定してください。<br>
 <br>
 <h3>時刻とバナー画像の設定例</h3>
-{ 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':50, 'sec':0, 'img':'img02.png', 'url':'url_01'}<br>
-<br>
-year:年<br>
-month:月<br>
-day:日<br>
-hour:時<br>
-min:分<br>
-sec:秒<br>
-img:バナーのファイル名（フォルダ名は省いてください。）<br>
-url:aタグのhref<br>
+var schedules = [
+    { 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':50, 'sec':0, 'img':'img02.png', 'url':'url_01'},
+    { 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':53, 'sec':0, 'img':'img03.png', 'url':'url_02'},
+    { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':10, 'sec':0, 'img':'img04.png', 'url':'url_03'},
+    { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':20, 'sec':0, 'img':'img05.png', 'url':'url_03'}
+];<br>
+<table style="margin-left:50px">
+<tr><td>year</td><td>年</td></tr>
+<tr><td>month</td><td>月</td></tr>
+<tr><td>day</td><td>日</td></tr>
+<tr><td>hour</td><td>時</td></tr>
+<tr><td>min</td><td>分</td></tr>
+<tr><td>sec</td><td>秒</td></tr>
+<tr><td>img</td><td>バナーのファイル名（フォルダ名は省いてください。）</td></tr>
+<tr><td>url</td><td>aタグのhref</td></tr>
+</table>
 
 <p>上から順番に（下へ行くほど）時間が経過していくように設定してください。</p>
 <h2>バナーの表示箇所の指定方法</h2>

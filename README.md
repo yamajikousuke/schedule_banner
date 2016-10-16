@@ -27,7 +27,7 @@ var schedules = [<br>
     { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':10, 'sec':0, 'img':'img04.png', 'url':'url_03'},<br>
     { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':20, 'sec':0, 'img':'img05.png', 'url':'url_03'}<br>
 ];
-<p>上から順番に（下へ行くほど）時間が経過していくように設定してください。</p>
+<p>※上から順番に（下へ行くほど）時間が経過していくように設定してください。</p>
 <table style="margin-left:50px">
 <tr><td>year</td><td>年</td></tr>
 <tr><td>month</td><td>月</td></tr>

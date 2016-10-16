@@ -1,23 +1,24 @@
 # schedule_banner
 <h1>ファイル構成</h1>
-│  schedule_banner.html
-│  
-├─images
-│      img01.png
-│      img02.png
-│      img03.png
-│      img04.png
-│      img05.png
-│      
-└─js
-        schedule_banner.js
-        schedule_banner_conf.js
+│  schedule_banner.html<br>
+│  <br>
+├─images<br>
+│      img01.png<br>
+│      img02.png<br>
+│      img03.png<br>
+│      img04.png<br>
+│      img05.png<br>
+│      <br>
+└─js<br>
+        schedule_banner.js<br>
+        schedule_banner_conf.js<br>
 
 <h1>使い方</h1>
-schedule_banner_conf.jsに、バナー画像を格納しているフォルダのパスと表示時刻、URLを設定します。<br>
-フォルダのパスは、最後にスラッシュ（/）を付けて下さい。<br>
-表示時刻は、json配列で指定してください。<br>
-ターゲット時刻の指定の例<br>
+<h2>設定ファイル</h2>
+まず、schedule_banner_conf.jsに、バナー画像を格納しているフォルダのパスと表示時刻、URLを設定します。<br>
+フォルダのパスは、最後にスラッシュ（/）を付けて下さい。表示時刻は、json配列で指定してください。<br>
+<br>
+<h3>ターゲット時刻の指定の例</h3>
 { 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':50, 'sec':0, 'img':'img02.png', 'url':'url_01'}<br>
 <br>
 year:年<br>
@@ -28,3 +29,6 @@ min:分<br>
 sec:秒<br>
 img:バナーのファイル名（フォルダ名は省いてください。）<br>
 url:aタグのhref<br>
+
+<h2>バナーの表示箇所の指定方法</h2>
+HTMLの中でバナーの表示箇所をdiv#scedule_bannerで指定します。

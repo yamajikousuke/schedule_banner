@@ -21,12 +21,13 @@
 フォルダのパスは、最後にスラッシュ（/）を付けて下さい。表示時刻は、json配列で指定してください。<br>
 <br>
 <h3>時刻とバナー画像の設定例</h3>
-var schedules = [
-    { 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':50, 'sec':0, 'img':'img02.png', 'url':'url_01'},
-    { 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':53, 'sec':0, 'img':'img03.png', 'url':'url_02'},
-    { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':10, 'sec':0, 'img':'img04.png', 'url':'url_03'},
-    { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':20, 'sec':0, 'img':'img05.png', 'url':'url_03'}
-];<br>
+var schedules = [<br>
+    { 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':50, 'sec':0, 'img':'img02.png', 'url':'url_01'},<br>
+    { 'year':2016, 'month':10, 'day':16, 'hour':13, 'min':53, 'sec':0, 'img':'img03.png', 'url':'url_02'},<br>
+    { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':10, 'sec':0, 'img':'img04.png', 'url':'url_03'},<br>
+    { 'year':2016, 'month':10, 'day':16, 'hour':14, 'min':20, 'sec':0, 'img':'img05.png', 'url':'url_03'}<br>
+];
+<p>上から順番に（下へ行くほど）時間が経過していくように設定してください。</p>
 <table style="margin-left:50px">
 <tr><td>year</td><td>年</td></tr>
 <tr><td>month</td><td>月</td></tr>
@@ -38,6 +39,5 @@ var schedules = [
 <tr><td>url</td><td>aタグのhref</td></tr>
 </table>
 
-<p>上から順番に（下へ行くほど）時間が経過していくように設定してください。</p>
 <h2>バナーの表示箇所の指定方法</h2>
 HTMLの中でバナーの表示箇所をdiv#scedule_bannerで指定します。

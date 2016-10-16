@@ -1,4 +1,6 @@
-# schedule_banner
+<p>指定時刻にバナーを表示するプログラムです。</p>
+<p>時刻はjson配列を使っていくつでも設定することができます。</p>
+
 <h1>ファイル構成</h1>
 │  schedule_banner.html<br>
 │  <br>
